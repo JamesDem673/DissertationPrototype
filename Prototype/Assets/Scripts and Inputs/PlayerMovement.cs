@@ -1,8 +1,10 @@
 using System;
 using System.Linq.Expressions;
 using System.Xml.Serialization;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.Controls;
 using UnityEngine.Serialization;
 
 public class Movement : MonoBehaviour
@@ -17,6 +19,10 @@ public class Movement : MonoBehaviour
 
     private bool _isJumping;
     private bool _facingFront = true;
+
+    public bool _isAttacking = false;
+    public bool _nextAttack = false;
+
 
     private void Awake()
     {
@@ -52,6 +58,23 @@ public class Movement : MonoBehaviour
             _animator.SetBool("IsRunning", false);
         }
 
+    }
+
+    public void OnAttack(InputAction.CallbackContext ctx)
+    {
+        if (ctx.performed)
+        {
+            if (!_isAttacking && !_isJumping)
+            {
+                _isAttacking = true;
+                _animator.SetBool("IsAttacking", true);
+            }
+            else if (_isAttacking && !_isJumping)
+            {
+                _nextAttack = true;
+                _animator.SetBool("NextAttack", true);
+            }
+        }
     }
 
     public void OnMove(InputAction.CallbackContext ctx)

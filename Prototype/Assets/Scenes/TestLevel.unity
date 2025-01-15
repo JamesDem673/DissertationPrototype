@@ -590,6 +590,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: b2a32ee1-1164-4cb9-9b76-4bc3b4f5ccc5
     m_ActionName: Movement/Jump[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 443753576}
+        m_TargetAssemblyTypeName: Movement, Assembly-CSharp
+        m_MethodName: OnAttack
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 93e91e1e-0ce1-45c5-976c-9b9ea7b3f29d
+    m_ActionName: Movement/Attack[/Mouse/leftButton]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Movement
@@ -610,6 +626,9 @@ MonoBehaviour:
   _animator: {fileID: 956437987}
   speed: 7
   jump: 175
+  _nextAttack: 0
+  _isAttacking: 0
+  _window: 0
 --- !u!1 &680123267
 GameObject:
   m_ObjectHideFlags: 0
@@ -895,6 +914,7 @@ GameObject:
   - component: {fileID: 956437985}
   - component: {fileID: 956437986}
   - component: {fileID: 956437987}
+  - component: {fileID: 956437988}
   m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
@@ -990,6 +1010,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &956437988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956437984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78d334bb28664ba45b3bc56966ab902b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animator: {fileID: 956437987}
+  _player: {fileID: 443753571}
 --- !u!1 &1002459508
 GameObject:
   m_ObjectHideFlags: 0
