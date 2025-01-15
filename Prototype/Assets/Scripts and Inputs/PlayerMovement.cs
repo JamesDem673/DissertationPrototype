@@ -8,6 +8,7 @@ using UnityEngine.Serialization;
 public class Movement : MonoBehaviour
 {
 
+    [SerializeField] private Animator _animator; 
     [SerializeField] private float speed = 8f;
     [SerializeField] private float jump = 100f;
 
@@ -15,6 +16,7 @@ public class Movement : MonoBehaviour
     private Rigidbody2D _rigidbody;
 
     private bool _isJumping;
+    private bool _facingFront = true;
 
     private void Awake()
     {
@@ -24,6 +26,32 @@ public class Movement : MonoBehaviour
     private void Update()
     {
         _rigidbody.velocity = new Vector2(_currentVelocity, _rigidbody.velocity.y);
+
+        if(_rigidbody.velocity.x > 0)
+        {
+            _animator.SetBool("IsRunning", true);
+
+            if(!_facingFront)
+            {
+                transform.Rotate(0, 180, 0);
+                _facingFront = true; 
+            }
+        }
+        else if (_rigidbody.velocity.x < 0)
+        {
+            _animator.SetBool("IsRunning", true);
+
+            if (_facingFront)
+            {
+                transform.Rotate(0, 180, 0);
+                _facingFront = false;
+            }
+        }
+        else if (_rigidbody.velocity.x ==  0) 
+        {
+            _animator.SetBool("IsRunning", false);
+        }
+
     }
 
     public void OnMove(InputAction.CallbackContext ctx)
@@ -44,6 +72,7 @@ public class Movement : MonoBehaviour
         if(collision.gameObject.CompareTag("Ground"))
         {
             _isJumping = false;
+            _animator.SetBool("IsJumping", false);
         }
     }
 
@@ -52,6 +81,7 @@ public class Movement : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             _isJumping = true;
+            _animator.SetBool("IsJumping", true);
         }
     }
 }
