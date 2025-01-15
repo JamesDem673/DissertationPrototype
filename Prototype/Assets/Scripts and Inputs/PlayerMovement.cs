@@ -84,4 +84,5 @@ public class Movement : MonoBehaviour
             _animator.SetBool("IsJumping", true);
         }
     }
+
 }
