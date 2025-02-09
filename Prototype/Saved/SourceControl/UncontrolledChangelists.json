@@ -7,16 +7,6 @@
 			"files": [
 				"C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Content/StarterContent/Architecture/Floor_400x400.uasset",
 				"C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
-				"C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Content/Characters/Animations/M_Neutral_Run_Loop_B.uasset",
-				"C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Content/Characters/Animations/M_Neutral_Run_Loop_BL.uasset",
-				"C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Content/Characters/Animations/M_Neutral_Run_Loop_BR.uasset",
-				"C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Content/Characters/Animations/M_Neutral_Run_Loop_F.uasset",
-				"C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Content/Characters/Animations/M_Neutral_Run_Loop_FL.uasset",
-				"C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Content/Characters/Animations/M_Neutral_Run_Loop_FR.uasset",
-				"C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Content/Characters/Animations/M_Neutral_Run_Loop_LL.uasset",
-				"C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Content/Characters/Animations/M_Neutral_Run_Loop_LR.uasset",
-				"C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Content/Characters/Animations/M_Neutral_Run_Loop_RL.uasset",
-				"C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Content/Characters/Animations/M_Neutral_Stand_Idle_Loop.uasset",
 				"C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Content/Characters/Animations/Movement/M_Neutral_Run_Loop_B.uasset",
 				"C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Content/Characters/Animations/Movement/M_Neutral_Run_Loop_BL.uasset",
 				"C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Content/Characters/Animations/Movement/M_Neutral_Run_Loop_BR.uasset",
@@ -38,7 +28,24 @@
 				"C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Content/Characters/Animations/Combat/SwordAttackCombo.uasset",
 				"C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Content/ThirdPerson/Input/Actions/IA_Attack.uasset",
 				"C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Content/Characters/Animations/Combat/SwordAttackCombo_Montage.uasset",
-				"C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Content/UI/Icons/Target_Lock.uasset"
+				"C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Content/UI/Icons/Target_Lock.uasset",
+				"C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Content/Blueprints/BP_Notify_Damage.uasset",
+				"C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Content/Characters/Mannequins/Meshes/SK_Mannequin.uasset",
+				"C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Content/Blueprints/BPI_Damage.uasset",
+				"C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Content/Fab/Sword/bladeed.uasset",
+				"C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Content/Fab/Sword/bladeed_texture_0.uasset",
+				"C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Content/Fab/Sword/bladeed_texture_1.uasset",
+				"C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Content/Fab/Sword/Material_002.uasset",
+				"C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Content/Characters/Animations/M_Neutral_Run_Loop_B.uasset",
+				"C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Content/Characters/Animations/M_Neutral_Run_Loop_BL.uasset",
+				"C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Content/Characters/Animations/M_Neutral_Run_Loop_BR.uasset",
+				"C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Content/Characters/Animations/M_Neutral_Run_Loop_F.uasset",
+				"C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Content/Characters/Animations/M_Neutral_Run_Loop_FL.uasset",
+				"C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Content/Characters/Animations/M_Neutral_Run_Loop_FR.uasset",
+				"C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Content/Characters/Animations/M_Neutral_Run_Loop_LL.uasset",
+				"C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Content/Characters/Animations/M_Neutral_Run_Loop_LR.uasset",
+				"C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Content/Characters/Animations/M_Neutral_Run_Loop_RL.uasset",
+				"C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Content/Characters/Animations/M_Neutral_Stand_Idle_Loop.uasset"
 			]
 		}
 	]
