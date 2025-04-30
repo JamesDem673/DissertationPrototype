@@ -1,2 +1,3 @@
-2025/04/29-19:56:15.327 8258 Creating DB C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Prototype/Saved/webcache_4430\Local Storage\leveldb since it was missing.
-2025/04/29-19:56:15.345 8258 Reusing MANIFEST C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Prototype/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
+2025/04/30-09:16:22.050 794c Reusing MANIFEST C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Prototype/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
+2025/04/30-09:16:22.057 794c Recovering log #3
+2025/04/30-09:16:22.058 794c Reusing old log C:/Users/TheRe/OneDrive - UWE Bristol/ThirdYear/CCTP/DissertationPrototype/Prototype/Prototype/Saved/webcache_4430\Local Storage\leveldb/000003.log 
